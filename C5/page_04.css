@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-link {
+    all: unset;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    white-space: nowrap;
+}
+.header-right {
+    display: flex;
+    gap: 2rem;
+}

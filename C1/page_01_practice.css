@@ -1,0 +1,13 @@
+.content {
+    margin: 3rem;
+    max-width: 30rem;
+}
+.tag {
+    display: inline-block;
+    padding: 12px 24px;
+    margin: 1rem;
+    border: 1px solid darkslateblue;
+    border-radius: 50px;
+    background-color: rgb(240, 238, 255);
+    color: darkslateblue;
+}

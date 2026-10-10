@@ -1,0 +1,34 @@
+body {
+  background-color: rgb(250, 189, 249);
+  color: rgb(172, 9, 159);
+}
+h1 {
+  color: rgb(123, 2, 113);
+}
+/* Using Class Selector instead of tag */
+.box {
+  background-color: rgb(248, 245, 247);
+  color: rgb(250, 189, 249);
+  place-items: center;
+}
+.small-header {
+  color: hotpink;
+}
+.element {
+  font-size: 16px;
+}
+.image-box {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.25);
+  overflow: hidden;
+}
+.image1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} 
+p {
+ max-width: 500px;
+}
