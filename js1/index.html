@@ -7,5 +7,15 @@
 </head>
 <body>
     <script src="script.js" defer></script>
+    <div id="output"></div>
+    <script>
+    const output = document.getElementById('output');
+    const originalLog = console.log;
+
+    console.log = function (...args) {
+        originalLog.apply(console, args);
+        output.innerHTML += `<pre>${args.join(" ")}</pre>`;
+    };
+    </script>
 </body>
 </html>
