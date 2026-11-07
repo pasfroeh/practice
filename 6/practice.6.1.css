@@ -1,0 +1,20 @@
+body {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.nav-bar {
+    padding: 1rem 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: antiquewhite;
+}
+.nav-buttons {
+    display: flex;
+    gap: 2rem;
+}
+.nav-icons {
+    display: flex;
+}

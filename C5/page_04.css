@@ -8,7 +8,9 @@ body {
   font-style: normal;
 }
 .header {
+    padding: 1rem 2rem;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 .nav-link {
@@ -20,22 +22,39 @@ body {
     gap: 0.3rem;
     white-space: nowrap;
 }
+.header-left {
+    display: flex;
+    align-items: center;
+}
 .header-right {
     display: flex;
-    gap: 2rem;
 }
 .content {
-    display: flex;
+    /*display: flex;
+    flex-direction: column;
     justify-content: center;
-    margin: 48px 0;
+    align-items: center;
+    gap: 2rem;*/
+    max-width: 65rem;
+    margin: 0 auto;
+    padding: 0 2rem;
 }
 .hero {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
     display: flex;
-    gap: 48px;
+    flex-wrap: wrap;
+    justify-content: center;
+    /*justify-content: space-between;*/
+    gap: 2.5rem;
 }
 .hero-left {
     display: flex;
     align-items: center;
+    width: 25rem;
+}
+.hero-right {
+    width: 25rem;
 }
 .button {
     background: #1e1e1e;
@@ -43,7 +62,30 @@ body {
     border-radius: 10px;
     padding: 12px 20px;
     border: none;
+    cursor: pointer;
 }
 .women-salad {
-    max-width: 30rem;
+    max-width: 100%;
+    border-radius: 0.3rem;
+}
+.columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2.5rem;
+}
+.column {
+    max-width: 13rem;
+    flex-grow: 1;
+}
+.column-image {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 0.3rem;
+}
+
+@media (max-width: 500px) {
+  .button {
+    width: 100%;
+  }
 }
