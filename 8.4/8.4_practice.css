@@ -28,3 +28,13 @@ body {
     width: fit-content;
     padding: .25rem .25rem;
 }
+.dot {
+
+    background-color: red;
+    height: 20px;
+    width: 20px;
+    position: fixed;
+    border-radius: 10px;
+    top: 0;
+    left:0;
+}

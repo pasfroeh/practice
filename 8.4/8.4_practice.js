@@ -45,11 +45,16 @@ function clickThumbnailCat() {
 }
 thumbnailCat.onclick= clickThumbnailCat;
 
-function clickThumbnailOtter() {
+function clickThumbnailOtter(event) {
     body.style.backgroundImage = 'url("funny_otter.jpg")';
     mood.textContent = "Silly";
     removeHighlight();
     thumbnailOtter.classList.add("highlight");
+    console.log(event);
+    let dot = document.getElementById("dot");
+    console.log(dot, event.pageX, event.pageY);
+    dot.style.top = event.pageY + 'px';
+    dot.style.left = event.pageX + 'px';
 }
 thumbnailOtter.onclick= clickThumbnailOtter;
 

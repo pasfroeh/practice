@@ -1,0 +1,7 @@
+.dragon {
+    max-width: 60px;
+    margin: 3rem 3rem;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+}
